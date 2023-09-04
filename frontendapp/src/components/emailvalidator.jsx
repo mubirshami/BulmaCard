@@ -60,7 +60,7 @@ function EmailValidator() {
           <label className="label">Email</label>
           <div className="control">
             <input
-              type="email"
+              type="text"
               className={`input ${validationError ? 'is-danger' : ''}`}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
